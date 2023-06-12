@@ -7,9 +7,5 @@ class Contact(models.Model):
     phone = models.CharField(max_length=10)
     enquiry = models.TextField()
     
-<<<<<<< HEAD
-=======
-    
->>>>>>> ee54d6bbf1f307d1232f81e6e392f6d2553c28cf
     def __str__(self):
         return self.name
